@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33071012F1232C1A6EE4713C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330716DA2B42A1F00DA2A420 /* UIKit.framework */; };
+		3307112E046C1A8D77A170B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3307196ECF3F3E7AC61FC993 /* Foundation.framework */; };
+		3307139EDEA9FAACBD67E306 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 330715EBF290E85D09742AB9 /* InfoPlist.strings */; };
+		330713C667C3C6BAF56F645E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330711A9774887E13F962879 /* CoreGraphics.framework */; };
+		330713CDDCFF1D52652A6E10 /* BOGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 330710D1B1903EA3EA675CE9 /* BOGAppDelegate.m */; };
+		3307143EB0908878EDEFC374 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33071152A2DF88D910830954 /* InfoPlist.strings */; };
+		33071466D7D6498111C4C27C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330715BC7158C5515A3DF9D8 /* Images.xcassets */; };
+		330717021BE63259E1E71CC9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330717F6D81C2003A3B96E07 /* XCTest.framework */; };
+		3307177FAEADE87C612AA2D6 /* BOGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330716023306A6EA670FC755 /* BOGViewController.m */; };
+		3307189921980D6F92646B85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3307196ECF3F3E7AC61FC993 /* Foundation.framework */; };
+		33071B338F6995DF873A069F /* QuickBogHackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33071C10AE8D6524B15079B5 /* QuickBogHackTests.m */; };
+		33071F5B254F0EE3F0FA69EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330716DA2B42A1F00DA2A420 /* UIKit.framework */; };
+		33071F91D7B87E51B73ADA8E /* BOGGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33071D6B8CF9A443029B283A /* BOGGameController.m */; };
+		33071FC53B3C37E206DC662D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 330719D9F0BD58CAA25543A9 /* main.m */; };
+		C9C534D9193121F100E2BA4B /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C534D8193121F000E2BA4B /* Game.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33071A8B1E26CC0F5ED5CAF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3307126031FCCD6D87560F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33071B355244322EDC6F3078;
+			remoteInfo = QuickBogHack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		330710D1B1903EA3EA675CE9 /* BOGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOGAppDelegate.m; sourceTree = "<group>"; };
+		330711860A1BADF41D1E5E24 /* BOGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BOGViewController.h; sourceTree = "<group>"; };
+		330711A9774887E13F962879 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33071563C2E8A66A601E76F6 /* BOGGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOGGameController.h; sourceTree = "<group>"; };
+		3307159F80E92A0FAA77F0A0 /* BOGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BOGAppDelegate.h; sourceTree = "<group>"; };
+		330715BC7158C5515A3DF9D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		330716023306A6EA670FC755 /* BOGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOGViewController.m; sourceTree = "<group>"; };
+		330716045785DF637F89820E /* QuickBogHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickBogHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		330716DA2B42A1F00DA2A420 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		330717CCB1B41F09EC0BF98E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		330717F6D81C2003A3B96E07 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33071923E3664E1205567073 /* QuickBogHack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "QuickBogHack-Info.plist"; sourceTree = "<group>"; };
+		3307196ECF3F3E7AC61FC993 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3307199E4052E39DEB91AE99 /* QuickBogHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickBogHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		330719D9F0BD58CAA25543A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33071C10AE8D6524B15079B5 /* QuickBogHackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickBogHackTests.m; sourceTree = "<group>"; };
+		33071C3E09B839DCE963205B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33071CD8FFDEC69D3DF8F5CA /* QuickBogHack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickBogHack-Prefix.pch"; sourceTree = "<group>"; };
+		33071D6B8CF9A443029B283A /* BOGGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOGGameController.m; sourceTree = "<group>"; };
+		33071EF681FE6E8CD53CF79C /* QuickBogHackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "QuickBogHackTests-Info.plist"; sourceTree = "<group>"; };
+		C9C534D8193121F000E2BA4B /* Game.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Game.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		330711B09EC745C55AF54920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330717021BE63259E1E71CC9 /* XCTest.framework in Frameworks */,
+				3307189921980D6F92646B85 /* Foundation.framework in Frameworks */,
+				33071F5B254F0EE3F0FA69EB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33071D01FB34712FBFDD1C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3307112E046C1A8D77A170B7 /* Foundation.framework in Frameworks */,
+				330713C667C3C6BAF56F645E /* CoreGraphics.framework in Frameworks */,
+				33071012F1232C1A6EE4713C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3307122D5251A018E6290B24 = {
+			isa = PBXGroup;
+			children = (
+				33071BF0B2AECC69D497CA4E /* Products */,
+				33071A38A6D109B60CCAFAC8 /* Frameworks */,
+				33071E753BBEB1D3C5BDDB82 /* QuickBogHack */,
+				3307149E4C0FBD4B10E0E252 /* QuickBogHackTests */,
+			);
+			sourceTree = "<group>";
+		};
+		330712F97BB19530593E3995 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33071923E3664E1205567073 /* QuickBogHack-Info.plist */,
+				330715EBF290E85D09742AB9 /* InfoPlist.strings */,
+				330719D9F0BD58CAA25543A9 /* main.m */,
+				33071CD8FFDEC69D3DF8F5CA /* QuickBogHack-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33071363862861F1D3BA9C80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33071EF681FE6E8CD53CF79C /* QuickBogHackTests-Info.plist */,
+				33071152A2DF88D910830954 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3307149E4C0FBD4B10E0E252 /* QuickBogHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				33071363862861F1D3BA9C80 /* Supporting Files */,
+				33071C10AE8D6524B15079B5 /* QuickBogHackTests.m */,
+			);
+			path = QuickBogHackTests;
+			sourceTree = "<group>";
+		};
+		33071A38A6D109B60CCAFAC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3307196ECF3F3E7AC61FC993 /* Foundation.framework */,
+				330711A9774887E13F962879 /* CoreGraphics.framework */,
+				330716DA2B42A1F00DA2A420 /* UIKit.framework */,
+				330717F6D81C2003A3B96E07 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33071BF0B2AECC69D497CA4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				330716045785DF637F89820E /* QuickBogHack.app */,
+				3307199E4052E39DEB91AE99 /* QuickBogHackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33071E753BBEB1D3C5BDDB82 /* QuickBogHack */ = {
+			isa = PBXGroup;
+			children = (
+				330712F97BB19530593E3995 /* Supporting Files */,
+				3307159F80E92A0FAA77F0A0 /* BOGAppDelegate.h */,
+				330710D1B1903EA3EA675CE9 /* BOGAppDelegate.m */,
+				330715BC7158C5515A3DF9D8 /* Images.xcassets */,
+				C9C534D8193121F000E2BA4B /* Game.storyboard */,
+				330711860A1BADF41D1E5E24 /* BOGViewController.h */,
+				330716023306A6EA670FC755 /* BOGViewController.m */,
+				33071D6B8CF9A443029B283A /* BOGGameController.m */,
+				33071563C2E8A66A601E76F6 /* BOGGameController.h */,
+			);
+			path = QuickBogHack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3307112747BCE4F6E6C768CC /* QuickBogHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330716E3A3F771F8F604CC8A /* Build configuration list for PBXNativeTarget "QuickBogHackTests" */;
+			buildPhases = (
+				33071BE7A0ED4FE690B09575 /* Sources */,
+				330711B09EC745C55AF54920 /* Frameworks */,
+				3307191543A767BA96BF81F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33071C2FB6B00B2DB22F8D81 /* PBXTargetDependency */,
+			);
+			name = QuickBogHackTests;
+			productName = QuickBogHackTests;
+			productReference = 3307199E4052E39DEB91AE99 /* QuickBogHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33071B355244322EDC6F3078 /* QuickBogHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330717EF5BBF18C9EE2AE517 /* Build configuration list for PBXNativeTarget "QuickBogHack" */;
+			buildPhases = (
+				33071CA2BE7BC8A8C6092156 /* Sources */,
+				33071D01FB34712FBFDD1C56 /* Frameworks */,
+				330710D01674A542B64F5777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickBogHack;
+			productName = QuickBogHack;
+			productReference = 330716045785DF637F89820E /* QuickBogHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3307126031FCCD6D87560F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Apps On The Move";
+			};
+			buildConfigurationList = 330715483731BABCD4A3F151 /* Build configuration list for PBXProject "QuickBogHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3307122D5251A018E6290B24;
+			productRefGroup = 33071BF0B2AECC69D497CA4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33071B355244322EDC6F3078 /* QuickBogHack */,
+				3307112747BCE4F6E6C768CC /* QuickBogHackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		330710D01674A542B64F5777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C534D9193121F100E2BA4B /* Game.storyboard in Resources */,
+				3307139EDEA9FAACBD67E306 /* InfoPlist.strings in Resources */,
+				33071466D7D6498111C4C27C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3307191543A767BA96BF81F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3307143EB0908878EDEFC374 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33071BE7A0ED4FE690B09575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33071B338F6995DF873A069F /* QuickBogHackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33071CA2BE7BC8A8C6092156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33071FC53B3C37E206DC662D /* main.m in Sources */,
+				330713CDDCFF1D52652A6E10 /* BOGAppDelegate.m in Sources */,
+				3307177FAEADE87C612AA2D6 /* BOGViewController.m in Sources */,
+				33071F91D7B87E51B73ADA8E /* BOGGameController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33071C2FB6B00B2DB22F8D81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33071B355244322EDC6F3078 /* QuickBogHack */;
+			targetProxy = 33071A8B1E26CC0F5ED5CAF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33071152A2DF88D910830954 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330717CCB1B41F09EC0BF98E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		330715EBF290E85D09742AB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33071C3E09B839DCE963205B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		330710F799837AF5489AEC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickBogHack/QuickBogHack-Prefix.pch";
+				INFOPLIST_FILE = "QuickBogHackTests/QuickBogHackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		330718710389CD2650C1B7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickBogHack/QuickBogHack-Prefix.pch";
+				INFOPLIST_FILE = "QuickBogHack/QuickBogHack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33071871382788137D6515D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3307187DD1EDF45EB20D097A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		33071AA3ED527CBFB68CA335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickBogHack/QuickBogHack-Prefix.pch";
+				INFOPLIST_FILE = "QuickBogHack/QuickBogHack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33071F03B4B650471159012F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickBogHack/QuickBogHack-Prefix.pch";
+				INFOPLIST_FILE = "QuickBogHackTests/QuickBogHackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		330715483731BABCD4A3F151 /* Build configuration list for PBXProject "QuickBogHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3307187DD1EDF45EB20D097A /* Debug */,
+				33071871382788137D6515D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330716E3A3F771F8F604CC8A /* Build configuration list for PBXNativeTarget "QuickBogHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330710F799837AF5489AEC8A /* Debug */,
+				33071F03B4B650471159012F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330717EF5BBF18C9EE2AE517 /* Build configuration list for PBXNativeTarget "QuickBogHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33071AA3ED527CBFB68CA335 /* Debug */,
+				330718710389CD2650C1B7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3307126031FCCD6D87560F17 /* Project object */;
+}
